@@ -1,0 +1,28 @@
+local webhook call
+stripe listen --forward-to http://192.168.29.174:8000/stripe/webhook
+
+ngrok http 192.168.29.174:8000
+
+
+psql -h localhost -d build -U root -f /var/www/html/build_sales_taxes_202308011223.sql
+For import data in pgsql
+
+
+
+
+
+usr/bin/php8.1 /usr/local/bin/composer require predis/predis
+
+
+sudo nano php.ini
+12:01
+sudo service apache2 restart
+
+https://github.com/sbthemes/adonis-next-backend/blob/main/app/Models/User.ts
+
+php8.1 artisan serve --host 192.168.29.205:8000
+
+
+
+
+
